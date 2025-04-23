@@ -42,4 +42,3 @@ def delete_product(connection, product_id):
 
 if __name__ == '__main__':
     connection = get_sql_connection()
-    print(delete_product(connection, 4))
